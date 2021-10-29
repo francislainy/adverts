@@ -9,14 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let menu = Bundle.main.decode(CategorySection.self, from: "categories.json")
+    let root = Bundle.main.decode(CategorySection.self, from: "categories.json")
     
     var body: some View {
         NavigationView {
             List {
-                let category = menu.categories
+                let category = root.categories
                 ForEach(category) { c in
-                    Text(c.title)
+                    NavigationLink(destination: SubCategoryView()) {
+                        Text(c.title)
+                    }
                 }
             }
             .navigationTitle("Menu")
