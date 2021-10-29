@@ -16,7 +16,9 @@ struct SubCategoryView: View {
             List {
                 let subCategory = root.subCategories
                 ForEach(subCategory) { s in
-                    Text(s.title)
+                    NavigationLink(destination: ThirdView()) {
+                        Text(s.title)
+                    }
                 }
             }
             .navigationTitle("SecondView")

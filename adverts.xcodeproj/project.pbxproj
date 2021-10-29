@@ -17,6 +17,7 @@
 		307C5F86272C184B0040E20A /* SubCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5F85272C184B0040E20A /* SubCategoryView.swift */; };
 		307C5F88272C1A760040E20A /* subCategories.json in Resources */ = {isa = PBXBuildFile; fileRef = 307C5F87272C1A760040E20A /* subCategories.json */; };
 		307C5F8A272C1AAF0040E20A /* SubCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5F89272C1AAF0040E20A /* SubCategories.swift */; };
+		307C5F8E272C417C0040E20A /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307C5F8D272C417C0040E20A /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		307C5F85272C184B0040E20A /* SubCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryView.swift; sourceTree = "<group>"; };
 		307C5F87272C1A760040E20A /* subCategories.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = subCategories.json; sourceTree = "<group>"; };
 		307C5F89272C1AAF0040E20A /* SubCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategories.swift; sourceTree = "<group>"; };
+		307C5F8D272C417C0040E20A /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				307C5F65272BDF000040E20A /* advertsApp.swift */,
 				307C5F67272BDF000040E20A /* ContentView.swift */,
 				307C5F85272C184B0040E20A /* SubCategoryView.swift */,
+				307C5F8D272C417C0040E20A /* ThirdView.swift */,
 				307C5F77272BE38B0040E20A /* Helper.swift */,
 				307C5F83272C0C4B0040E20A /* Categories.swift */,
 				307C5F89272C1AAF0040E20A /* SubCategories.swift */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				307C5F8E272C417C0040E20A /* ThirdView.swift in Sources */,
 				307C5F68272BDF000040E20A /* ContentView.swift in Sources */,
 				307C5F86272C184B0040E20A /* SubCategoryView.swift in Sources */,
 				307C5F84272C0C4B0040E20A /* Categories.swift in Sources */,
