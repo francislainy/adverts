@@ -1,74 +1,72 @@
-[
+{
+  "categories": [
     {
-        "categories": [
-            {
-                "id": "84d2714b-734c-4290-8574-76c1d626eb98",
-                "title": "Baby & Nursery"
-            },
-            {
-                "id": "7d3b90cc-1a83-411e-85e4-e5158558dfa9",
-                "title": "Antiques & Collectables"
-            },
-            {
-                "id": "5b174379-4e36-47af-b1e2-77bb463d50d0",
-                "title": "Art & Crafts"
-            },
-            {
-                "id": "3e3102ca-ef1b-48b1-8e87-87c4e7a7808c",
-                "title": "test"
-            },
-            {
-                "id": "2483d126-0e02-419f-ac34-e48bfced8cf5",
-                "title": "test"
-            },
-            {
-                "id": "4b307bcd-540f-4457-9383-475cd783e0e3",
-                "title": "test"
-            },
-            {
-                "id": "caa542eb-ef77-46bb-9337-37dc0545ab26",
-                "title": "test"
-            },
-            {
-                "id": "39990b56-d5f0-4702-9224-fcaaa9abb52e",
-                "title": "test"
-            },
-            {
-                "id": "2da4002a-31c5-4cc7-9b92-cbf0db998c41",
-                "title": "test"
-            },
-            {
-                "id": "f46ed7f1-2160-4273-94db-f2da51b94316",
-                "title": "test"
-            },
-            {
-                "id": "ee805ac7-9378-4abd-ab9c-5b105174323f",
-                "title": "test"
-            },
-            {
-                "id": "4190d574-cc72-4e0e-bdb7-fb375f51b099",
-                "title": "test"
-            },
-            {
-                "id": "e0060ad0-574f-41d8-9775-4d711d91dbcc",
-                "title": "test"
-            },
-            {
-                "id": "adf454d7-78bc-4a15-b64e-cfb5b5627cf7",
-                "title": "test"
-            },
-            {
-                "id": "4b5558a4-46ca-49a1-9609-09f27c523ba5",
-                "title": "test"
-            },
-            {
-                "id": "400bb1f7-4426-4cb8-926a-cccd4baf2e1c",
-                "title": "test"
-            },
-            {
-                "id": "d370b7d3-af2c-4e99-9f16-383e4400088a",
-                "title": "test"
-            }
-        ]
+      "id": "84d2714b-734c-4290-8574-76c1d626eb98",
+      "title": "Baby & Nursery"
+    },
+    {
+      "id": "7d3b90cc-1a83-411e-85e4-e5158558dfa9",
+      "title": "Antiques & Collectables"
+    },
+    {
+      "id": "5b174379-4e36-47af-b1e2-77bb463d50d0",
+      "title": "Art & Crafts"
+    },
+    {
+      "id": "3e3102ca-ef1b-48b1-8e87-87c4e7a7808c",
+      "title": "test"
+    },
+    {
+      "id": "2483d126-0e02-419f-ac34-e48bfced8cf5",
+      "title": "test"
+    },
+    {
+      "id": "4b307bcd-540f-4457-9383-475cd783e0e3",
+      "title": "test"
+    },
+    {
+      "id": "caa542eb-ef77-46bb-9337-37dc0545ab26",
+      "title": "test"
+    },
+    {
+      "id": "39990b56-d5f0-4702-9224-fcaaa9abb52e",
+      "title": "test"
+    },
+    {
+      "id": "2da4002a-31c5-4cc7-9b92-cbf0db998c41",
+      "title": "test"
+    },
+    {
+      "id": "f46ed7f1-2160-4273-94db-f2da51b94316",
+      "title": "test"
+    },
+    {
+      "id": "ee805ac7-9378-4abd-ab9c-5b105174323f",
+      "title": "test"
+    },
+    {
+      "id": "4190d574-cc72-4e0e-bdb7-fb375f51b099",
+      "title": "test"
+    },
+    {
+      "id": "e0060ad0-574f-41d8-9775-4d711d91dbcc",
+      "title": "test"
+    },
+    {
+      "id": "adf454d7-78bc-4a15-b64e-cfb5b5627cf7",
+      "title": "test"
+    },
+    {
+      "id": "4b5558a4-46ca-49a1-9609-09f27c523ba5",
+      "title": "test"
+    },
+    {
+      "id": "400bb1f7-4426-4cb8-926a-cccd4baf2e1c",
+      "title": "test"
+    },
+    {
+      "id": "d370b7d3-af2c-4e99-9f16-383e4400088a",
+      "title": "test"
     }
-]
+  ]
+}

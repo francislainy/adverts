@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-struct CategorySection: Codable, Identifiable {
-    var id: UUID
-    var title: String
+struct CategorySection: Codable {
     var categories: [CategoryItem]
 }
 
-struct CategoryItem: Codable, Equatable, Identifiable {
+struct CategoryItem: Codable, Identifiable {
     var id: UUID
     var title: String
 }
+
