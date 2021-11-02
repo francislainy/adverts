@@ -9,16 +9,8 @@ import SwiftUI
 
 struct ThirdView: View {
     
-    struct Categories: Codable {
-        var categories: [Category]
-    }
-    
-    struct Category: Codable {
-        var id: String
-        var title: String
-    }
-    
-    @State private var results = [Category]()
+   
+    @State private var results = [CategoryItem]()
     
     var body: some View {
         List(results, id: \.id) { item in
@@ -39,7 +31,7 @@ struct ThirdView: View {
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let data = data {
-                if let decodedResponse = try? JSONDecoder().decode(Categories.self, from: data) {
+                if let decodedResponse = try? JSONDecoder().decode(CategorySection.self, from: data) {
                     // we have good data – go back to the main thread
                     DispatchQueue.main.async {
                         // update our UI
