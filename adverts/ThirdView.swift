@@ -9,31 +9,29 @@ import SwiftUI
 
 struct ThirdView: View {
     
-    struct Response: Codable {
-        var results: [Result]
+    struct Categories: Codable {
+        var categories: [Category]
     }
     
-    struct Result: Codable {
-        var trackId: Int
-        var trackName: String
-        var collectionName: String
+    struct Category: Codable {
+        var id: String
+        var title: String
     }
     
-    @State private var results = [Result]()
+    @State private var results = [Category]()
     
     var body: some View {
-        List(results, id: \.trackId) { item in
+        List(results, id: \.id) { item in
             VStack(alignment: .leading) {
-                Text(item.trackName)
+                Text(item.title)
                     .font(.headline)
-                Text(item.collectionName)
             }
         }
         .onAppear(perform: loadData)
     }
     
     func loadData() {
-        guard let url = URL(string: "https://itunes.apple.com/search?term=taylor+swift&entity=song") else {
+        guard let url = URL(string: "https://mysterious-castle-56200.herokuapp.com/api/adverts/category") else {
             print("Invalid URL")
             return
         }
@@ -41,11 +39,11 @@ struct ThirdView: View {
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let data = data {
-                if let decodedResponse = try? JSONDecoder().decode(Response.self, from: data) {
+                if let decodedResponse = try? JSONDecoder().decode(Categories.self, from: data) {
                     // we have good data – go back to the main thread
                     DispatchQueue.main.async {
                         // update our UI
-                        self.results = decodedResponse.results
+                        self.results = decodedResponse.categories
                     }
                     
                     // everything is good, so we can exit
